@@ -1,0 +1,188 @@
+/* General styles for my portfolio */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+img.rounded {
+    border-radius: 10px;
+}
+
+main h2 {
+    font-size: 34px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 500px;
+    margin: 10px;
+}
+
+main h3 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 200px;
+}
+
+main p {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.4em;
+}
+
+
+/* Header Styling */
+
+header {
+    background-color: #00b4d8;
+    margin-bottom: 20px;
+    display: block;
+    border: ridge #ade8f4; 
+    border-width: 10px;
+}
+
+header h1 {
+    color: #fcfdf5;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    font-family: tahoma;
+    font-size: 40px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #fcfdf5;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+/* Desktop - Header Styling */
+
+@media all and (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+        padding-left: 30px;
+    }
+
+    header nav {
+        margin-top: 14px;
+    }
+
+    header nav ul li a{
+        padding-right: 15px;
+    }
+
+    header nav ul li a:hover {
+        color: #bdbdbd;
+    }
+}
+
+/* Main Styling */
+
+main .intro {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+main {
+    padding: 0 10px;
+}
+
+/* Mobile - Groups & Items Styling */
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
+.item-double {
+    flex: 2.5;
+    margin: 10px;
+}
+
+/* Desktop - Groups & Items Styling */
+
+@media all and (min-width: 800px){
+    .group {
+        flex-direction: row;
+    }
+
+    section {
+        padding: 0 60px;
+    }
+
+    main p {
+        font-size: 20px;
+    }
+}
+
+/* About & Contact Article Styling */
+#about {
+    background-color: rgb(225, 237, 243);
+    border-radius: 10px;
+}
+
+#contact {
+    background-color: rgb(245, 248, 244);
+    border-radius: 10px; 
+}
+
+/* Form Styling */
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: arial;
+}
+
+form input[type=text] {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 12px;
+    width: 60%;
+}
+
+form textarea {
+    width: 80%;
+    height: 7rem;
+}
+
+
+
+
