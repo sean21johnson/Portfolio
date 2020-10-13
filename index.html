@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Navigation</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <!--Code Requirements:
+    1. Create a page layout using flexbox
+    2. Implement appropriate media queries for responsive design
+    3. Utilize semantic, valid markup
+    4. Build your page from scratch (no template usage)
+    5. Page should not have typos and should offer content clarity and readability-->
+
+    <!--Additional Notes on "Starting Your Portfolio"
+    You may not have developed projects yet.  Setup your portfolio with placeholder content.  Placeholder content for all of the following is acceptable:
+    1. Sample project listing
+    2. Title of the project
+    3. Description that explains what the app does, who it's for, why you built it
+        3a. Skills used (what is the stack)
+        3b. (Optional) Screenshot that presents the app appropriately - may be a placeholder - the actual image does not really matter
+        3c. Link to the GitHub repo of the project
+        3d. Link to live, working app-->
+
+    <!--Submittion Details:
+    Please submit:
+    1. GitHub.com repo URL
+    2. GitHub.io website address-->
+
+    <!--Header for the page with my name-->
+    <header>
+        <h1>Sean Johnson</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Main section with majority of content-->
+    <main>
+
+        <!--Introductory Section: 
+        1. Who you are
+        2. Where you are
+        3. What you do and what makes you special-->
+        <section>
+            <article id ="home">
+                <div class="group">
+                    <div class="item">
+                        <img src="images/intro/sean.png" alt="Sean Johnson Headshot" class="rounded">
+                    </div>
+                    <div class="item">
+                        <p class ="intro">My name is Sean Johnson and I am a student at Thinkful!</p>
+                        <p>I recently left a financial services position at JP Morgan Chase to pursue a career in software engineering.  
+                        Computer programming is new to me, but so far I thoroughly enjoy the challenge of building and creating websites.
+                        I am very excited to begin my journey in web development at Thinkful. Currently, I reside in Sea Isle City, NJ.</p>
+                        <p>With a background in financial services, I am ultimately interested in a career in FinTech. I am focused on developing 
+                        a tech skillset to compliment my understanding of financial products & operations. I am confident that a programming skillset
+                        will make me more marketable for positions in the FinTech space that require an understanding of both software engineering and finance.</p>
+                    </div>
+                </div>
+            </article>  
+        </section>
+
+        <!--About Me Section:
+        1. Demonstrate your passion for the web
+        2. Demonstrate desire to work on a team with great programmers
+        3. Show your personality outside of coding
+        4. List of services you can (or want to) provide a client-->
+        <section>
+            <article id="about">
+                <h2>About Me</h2>
+                <div class="group">
+                    <div class="item item-double">
+                        <p>I have always been fascinated by the web, but never put the time in to better understand the mechanics behind it. After feeling a lack of fulfillment
+                        in various financial operations roles, I decided to explore options in web development. After a few modules in Thinkful's prep course, I became
+                        increasingly interested in enrolling in a full-time bootcamp and making a career change. I have never been more excited about the future of my career
+                        and cannot wait to begin learning from and collaborating with others in the software engineering space.</p>
+                        <p>When I'm not coding, I am usually exercising, reading or watching sports. My favorite exercise is running and I typically run at least fifteen miles a week. I
+                        mostly read nonfiction biographies about successful entrepreneurs, and also enjoy reading interesting business articles online. My favorite sports teams are the New York Jets and the 
+                        Brooklyn Nets. Before Covid, I got to the Barclay's Center and Meadowlands Stadium for at least one game every season.</p>
+                        <p>I want to be able to help clients meet their needs from both financial and tech perspectives. Down the line, I envision myself in a product management role at a FinTech
+                        firm where I can utilize my background in finance and my newfound programming skillset. I have a strong understanding of financial products & markets, and aim
+                        to merge this knowledge base with a foundational understanding of computer programming to deliver optimal FinTech solutions for clients.</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/aboutMe/barclays.jpg" alt="Barclay's Center" class="rounded">
+                        <img src="images/aboutMe/meadowlands.jpg" alt="Meadowlands Stadium" class="rounded">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--Project section:
+        1. Project title
+        2. Project description
+        3. Link to project-->
+        <section>
+            <article id="portfolio">
+                <h2>My Portfolio</h2>
+                <div class="group">
+                    <div class="item">
+                        <h3>Quiz App</h3>
+                        <img src="images/portfolio/placeholder.png" alt="Quiz App Placeholder Screenshot" class="rounded">
+                        <p>This is a description of the Quiz App that I built. I will eventually share what the app does, the skills & languages I applied to build it, and what I learned 
+                            in the process.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Bookmark App</h3>
+                        <img src="images/portfolio/placeholder.png" alt="Bookmark App Placeholder Screenshot" class="rounded">
+                        <p>This is a description of the Bookmark App that I built. I will eventually share what the app does, the skills & languages I applied to build it, and what I learned 
+                            in the process.</p>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="item">
+                        <h3>Pet Appointment App</h3>
+                        <img src="images/portfolio/placeholder.png" alt="Pet Appointment App Placeholder Screenshot" class="rounded">
+                        <p>This is a description of the Pet Appointment App that I built. I will eventually share what the app does, the skills & languages I applied to build it, and what I 
+                            learned in the process.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Team Project App</h3>
+                        <img src="images/portfolio/placeholder.png" alt="Team Project App Placeholder Screenshot" class="rounded">
+                        <p>This is a description of the Team Project App that we built. I will eventually share what the app does, the skills & languages I applied to build it, and what I learned 
+                            in the process.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--Contact Section:
+        1. Email address
+        2. Link to your github profile
+        3. Link to your linkedin profile-->
+        <section>
+            <article id="contact">
+                <h2>Contact Info</h2>
+                <div class="group">
+                    <div class="item">
+                        <form action="https://formspree.io/seanjohnson220@gmail.com" method="post">
+                            <label for="full-name">Name:</label>
+                            <input id="full-name" type="text" name="name" placeholder="Enter your full name">
+                            <label for="email">Email:</label>
+                            <input id="email" type="text" name="email" placeholder="Enter your email address">
+                            <label for="form-message">Your Message:</label>
+                            <textarea id="form-message" name="message>" placeholder="Type your message here"></textarea>
+                            <p></p>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </form>
+                    </div>
+                    <div class="item">
+                        <p><a href="mailto:seanjohnson220@gmail.com">Email Me</a></p>
+                        <p><a href="http://github.com/sean21johnson" target="_blank">GitHub Profile</a></p>
+                        <p><a href="http://linkedin.com/in/sean-johnson-3152b060/" target="_blank">LinkedIn Profile</a></p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49504.32279853995!2d-74.72865605256104!3d39.15152276006211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0bb663276ed7d%3A0x455a52ee01e05b7b!2sSea%20Isle%20City%2C%20NJ%2008243!5e0!3m2!1sen!2sus!4v1596759744213!5m2!1sen!2sus" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+        
+    </main>
+    
+</body>
+</html>
