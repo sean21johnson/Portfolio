@@ -103,6 +103,7 @@ header nav ul li:last-child a {
     header nav ul li a:hover {
         color: #bdbdbd;
     }
+
 }
 
 /* Main Styling */
@@ -202,5 +203,17 @@ form button {
     color: #fff;
     margin: 0 8px 10px 0;
 }
+
+/*format the contact links on my webpage*/
+#contact a {
+	font-weight: 800;
+	text-decoration: none;	
+}
+
+#contact a:link {color: darkslateblue;}
+#contact a:visited {color: darkslateblue;}
+#contact a:hover {color: orangered;
+text-decoration: underline;}
+#contact a:active {color: orangered;}
 
 
