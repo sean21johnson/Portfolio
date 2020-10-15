@@ -22,14 +22,12 @@ img.rounded {
 main h2 {
     font-size: 34px;
     font-family: Verdana, Geneva, sans-serif;
-    font-weight: 500px;
     margin: 10px;
 }
 
 main h3 {
     font-size: 25px;
     font-family: Verdana, Geneva, sans-serif;
-    font-weight: 200px;
 }
 
 main p {
@@ -204,6 +202,5 @@ form button {
     color: #fff;
     margin: 0 8px 10px 0;
 }
-*/
 
 
