@@ -183,6 +183,27 @@ form textarea {
     height: 7rem;
 }
 
+/* Button Styling */
 
+.apps {
+    margin-top: 8px;
+    border-radius: 10px;
+    font-family: arial;
+    font-size: 18px;
+    background: rgb(7, 84, 119);
+    color: #fff;
+}
+
+form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 0;
+    font-family: arial;
+    font-size: 16px;
+    background: rgb(7, 84, 119);
+    color: #fff;
+    margin: 0 8px 10px 0;
+}
+*/
 
 
